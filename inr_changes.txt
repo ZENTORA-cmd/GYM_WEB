@@ -1,0 +1,52 @@
+================================================================================
+                    AURA FITNESS - INR CURRENCY & PRICING CONVERSION
+================================================================================
+
+To localise AURA Fitness for the Indian premium market, we are implementing the 
+following changes across index.html and app.js:
+
+1. CURRENCY SYMBOL
+------------------
+- Replace all instances of '$' with '₹' (Indian Rupee symbol).
+- Update calculation formatting in JavaScript from '$' to '₹' and use 'en-IN' locale 
+  formatting for Indian digit grouping (e.g. ₹1,50,000 instead of ₹150,000).
+
+2. PROGRAMS GRID PRICING (INR PER MONTH)
+---------------------------------------
+- Weight Training      : Starts at ₹1,999/mo (was $49)
+- Cardio Training      : Starts at ₹1,499/mo (was $39)
+- CrossFit             : Starts at ₹2,999/mo (was $59)
+- Powerlifting         : Starts at ₹3,499/mo (was $69)
+- Bodybuilding         : Starts at ₹2,499/mo (was $55)
+- Yoga & Mobility      : Starts at ₹1,299/mo (was $35)
+- Functional Training  : Starts at ₹2,199/mo (was $45)
+- Fat Loss Program     : Starts at ₹2,499/mo (was $49)
+- Muscle Gain Program  : Starts at ₹2,499/mo (was $49)
+- Personal Training    : Starts at ₹4,999/mo (was $99)
+
+3. ELITE COACHES PRICING (INR PER MONTH)
+---------------------------------------
+- Sarah Connor (Bodybuilding & Dietetics) : ₹7,999/mo (was $120)
+- Marcus Vance (Powerlifting & Strength)  : ₹9,999/mo (was $150)
+- Elena Rostova (Yoga & Recovery)         : ₹6,999/mo (was $110)
+- Jack Mercer (CrossFit & Cardio)         : ₹8,999/mo (was $130)
+
+4. MEMBERSHIP TIERS (INR PER MONTH)
+-----------------------------------
+- Basic Package    : ₹1,999/mo (was $39)
+- Standard Package : ₹2,999/mo (was $59) [Most Popular]
+- Premium Package  : ₹4,999/mo (was $89)
+- VIP Elite        : ₹9,999/mo (was $149)
+
+5. SUBSCRIPTION & PAYMENT SIMULATOR UPDATES
+-------------------------------------------
+- Update checkout base subscription price default to ₹2,999.00 (Standard Package).
+- Adjust processing surcharge/tax to 18% GST (instead of US 5% Sales Tax) to make 
+  it realistic for the Indian commercial context:
+  * Standard Package base: ₹2,999.00
+  * CGST + SGST (18% GST) : ₹539.82
+  * Grand Total           : ₹3,538.82
+- Update the mock UPI QR Code generation parameters to use the merchant code 
+  with the INR total value.
+- Receipt generation outputs details in INR (₹) with transaction date/time and 
+  appropriate formatting.

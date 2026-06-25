@@ -1,0 +1,103 @@
+================================================================================
+                    AURA FITNESS - REQUIRED IMAGE ASSETS LIST
+================================================================================
+
+To display your own images on the website, save your image files in the main 
+project directory (c:/GYM/) using the exact filenames listed below. The HTML 
+code has been updated to link to these local files.
+
+1. HERO SECTION
+---------------
+* Filename    : hero_bg.png (or hero_bg.jpg)
+* Size/Ratio  : Wide 16:9 (Recommended: 1920x1080 pixels)
+* Description : Premium cinematic fitness image. Main subject (muscular athlete) 
+                on the right side, and clean dark empty space on the left 
+                for high-contrast white text overlays.
+
+2. ABOUT SECTION
+----------------
+* Filename    : about_gym.jpg
+* Size/Ratio  : Vertical or 4:3 (Recommended: 800x600 pixels)
+* Description : Premium, bright, sunlit gym interior showcasing clean equipment, 
+                wooden panels, or modern luxury strength floor.
+
+3. ELITE COACHES (4 Images)
+---------------------------
+* Filename    : trainer_rahul.jpg
+* Size/Ratio  : Vertical Portrait (Recommended: 600x800 pixels)
+* Description : Rahul Patil (Strength Coach) - Professional athletic headshot or 
+                coaching shot in gym environment.
+
+* Filename    : trainer_aditya.jpg
+* Size/Ratio  : Vertical Portrait (Recommended: 600x800 pixels)
+* Description : Aditya Deshmukh (Powerlifting Coach) - Solid strength posture or 
+                lifting platform coach shot.
+
+* Filename    : trainer_sneha.jpg
+* Size/Ratio  : Vertical Portrait (Recommended: 600x800 pixels)
+* Description : Sneha Kulkarni (Yoga Specialist) - Professional and calming yoga 
+                instructor headshot or posing in studio.
+
+* Filename    : trainer_karan.jpg
+* Size/Ratio  : Vertical Portrait (Recommended: 600x800 pixels)
+* Description : Karan Jadhav (CrossFit Expert) - High-energy action shot or CrossFit 
+                coach profile.
+
+4. MEMBER TESTIMONIALS (4 Images)
+---------------------------------
+* Filename    : client_rohan.jpg
+* Size/Ratio  : Square Avatar (Recommended: 150x150 pixels)
+* Description : Rohan Joshi (Pune Software Engineer) - Clean profile picture.
+
+* Filename    : client_amit.jpg
+* Size/Ratio  : Square Avatar (Recommended: 150x150 pixels)
+* Description : Amit Shinde (Mumbai MBA Student) - Clean profile picture.
+
+* Filename    : client_priya.jpg
+* Size/Ratio  : Square Avatar (Recommended: 150x150 pixels)
+* Description : Priya Deshpande (Nashik Business Owner) - Clean profile picture.
+
+* Filename    : client_vikram.jpg
+* Size/Ratio  : Square Avatar (Recommended: 150x150 pixels)
+* Description : Vikram Mohite (Nagpur Athlete) - Clean profile picture.
+
+5. GALLERY IMAGES (6 Images)
+----------------------------
+* Filename    : gallery_transform_1.jpg
+* Size/Ratio  : Wide or 3:2 (Recommended: 600x400 pixels)
+* Description : Transformation story/Member before-after progression.
+
+* Filename    : gallery_interior_1.jpg
+* Size/Ratio  : Wide or 3:2 (Recommended: 600x400 pixels)
+* Description : Modern Indian gym interior / premium sunlit cardio floor.
+
+* Filename    : gallery_equipment_1.jpg
+* Size/Ratio  : Wide or 3:2 (Recommended: 600x400 pixels)
+* Description : CrossFit competition rig / Olympic lifting platforms.
+
+* Filename    : gallery_transform_2.jpg
+* Size/Ratio  : Wide or 3:2 (Recommended: 600x400 pixels)
+* Description : Yoga workshop in progress / stretching studio sessions.
+
+* Filename    : gallery_equipment_2.jpg
+* Size/Ratio  : Wide or 3:2 (Recommended: 600x400 pixels)
+* Description : Maharashtra fitness events showcase / calibrated kettlebells.
+
+* Filename    : gallery_interior_2.jpg
+* Size/Ratio  : Wide or 3:2 (Recommended: 600x400 pixels)
+* Description : Personal training zone / bespoke strength layout.
+
+6. BLOG & TIPS SECTION (3 Images)
+---------------------------------
+* Filename    : tip_hydration.jpg
+* Size/Ratio  : Wide (Recommended: 600x400 pixels)
+* Description : Running water, sports bottle, or workout hydration set.
+
+* Filename    : tip_nutrition.jpg
+* Size/Ratio  : Wide (Recommended: 600x400 pixels)
+* Description : Healthy diet meal prep, high-protein food layout.
+
+* Filename    : tip_recovery.jpg
+* Size/Ratio  : Wide (Recommended: 600x400 pixels)
+* Description : Foam rollers, stretching recovery, yoga rest session.
+================================================================================
